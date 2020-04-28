@@ -1,0 +1,169 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+body{
+    font-family: "Montserrat";
+}
+h1 {
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-black';
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    
+}
+
+h3 {
+    font-family: "ubuntu";
+    font-weight: bold;
+}
+
+p{  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: #808080;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;    
+
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem ;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* down-button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.iphone6{
+    
+    width: 50%;
+    size: 70%;
+    transform: rotate(25deg); 
+    right: 30%;
+    position: absolute;
+    
+    
+}
+#features {
+    padding: 7% 15%;
+    background-color: #ffff;
+    
+    position: relative;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 2.5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color:#ef8172;
+    color: #ffff;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+#cta{
+    padding: 7% 15%;
+    color: white;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-head{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-family: "ubuntu";
+    
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+    margin: 20px 10px ;
+
+}
+
+
+@media (max-width : 1028px){
+    .iphone6{
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+
+}
